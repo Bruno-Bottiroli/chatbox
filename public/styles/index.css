@@ -115,4 +115,15 @@ header{
 .message-right .message-body {
     background-color: #d1e7dd; 
 }
-
+.responsive-display{
+    height: 300px;
+}
+@media (max-width: 480px) {
+    .query{
+        margin-top: 20px;
+    }
+    .responsive-display{
+        height: 400px;
+    }
+    
+  }
