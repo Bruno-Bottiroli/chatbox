@@ -1,5 +1,118 @@
 h1{
-    color: rgb(23, 56, 54);
-    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(239, 246, 224);
+    font-family: "Lexend", sans-serif;
+    font-size: 2rem;
+    line-height: 1;
+}
+header.container-fluid {
+    padding-top: 20px; 
+}
+
+h1.white {
+    margin-top: 0; 
+    margin-bottom: 20px; 
+}
+header{
+    background-color: rgb(18, 89, 64);
+    height: 100px;
+}
+.bg-gris{
+    background-color: rgb(247 247 247)
+}
+.logo{
+    height: 70px;
+    width: auto;
+}
+.bg-custom{
+    background-color: rgb(33 77 76);
+        --bs-bg-opacity: 1;
+}
+.white{
+    color: white;
+}
+.participant-item {
+    display: flex;                 
+    align-items: center;         
+    justify-content: start;      
+    margin-bottom: 5px;           
+}
+
+.participant-circle {
+    width: 12px;                   
+    height: 12px;                  
+    background-color: rgb(31, 217, 65); 
+    border-radius: 50%;            
+    margin-right: 8px;            
+}
+
+
+.message-header {
+    font-weight: bold;
+    margin-bottom: 5px; 
+    color: #235847;
+}
+
+.message-body {
+    background-color: #e0e0e0; 
+    padding: 10px;
+    border-radius: 10px;
+    max-width: fit-content;
+    word-wrap: break-word;
+}
+
+.message {
+    max-width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px 0;
+}
+
+
+#messageLogs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    overflow-y: auto; 
+    max-height: 400px;
+    padding: 10px;
+}
+
+
+.message {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px 0;
+}
+
+
+.message-left {
+    align-self: flex-start;
+}
+
+
+.message-right {
+    align-self: flex-end;
+}
+
+
+.message-header {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #235847;
+}
+
+.message-body {
+    background-color: #e0e0e0; 
+    padding: 10px;
+    border-radius: 10px;
+    max-width: fit-content;
+    word-wrap: break-word;
+}
+
+.message-right .message-body {
+    background-color: #d1e7dd; 
 }
 
